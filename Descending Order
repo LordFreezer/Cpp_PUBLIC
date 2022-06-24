@@ -1,0 +1,42 @@
+/*
+Your task is to make a function that can take any non-negative integer as 
+an argument and return it with its digits in descending order. 
+Essentially, rearrange the digits to create the highest possible number.
+*/
+
+#include <cinttypes>
+#include <string> 
+#include <iostream>
+#include <sstream>
+#include <cstdlib> 
+
+
+uint64_t descendingOrder(uint64_t a)
+{
+  int n,j,k;
+  char temp;
+  char* end;
+  
+  std::string s = std::to_string(a);
+  n = s.length();
+  
+  for(j=1; j<n; j++)
+  {
+    for(k=0; k<n-j; k++)
+    {
+        if((uint64_t)s[k]<(uint64_t)s[k+1])
+        {
+            temp=s[k];
+            s[k]=s[k+1];
+            s[k+1]=temp;
+        }
+    }
+  }
+  
+  return strtoull(s.c_str(), &end, 10);
+  
+}
+
+int main(){
+    std:: cout << descendingOrder(1245838) << std::endl;
+}
