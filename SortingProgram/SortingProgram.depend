@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1566360655 source:c:\users\owner\desktop\sophomore year\fall\programming 2\sortingprogram\main.cpp
+	<iostream>
+	<ctime>
+	"shell.cpp"
+	"bubble.cpp"
+	"quick.cpp"
+
+1566170231 c:\users\owner\desktop\sophomore year\fall\programming 2\sortingprogram\shell.cpp
+	<iostream>
+
+1566170276 c:\users\owner\desktop\sophomore year\fall\programming 2\sortingprogram\bubble.cpp
+	<iostream>
+
+1566362457 c:\users\owner\desktop\sophomore year\fall\programming 2\sortingprogram\quick.cpp
+	<iostream>
+

@@ -1,0 +1,4 @@
+﻿  ArrayOfStructs.cpp
+C:\Users\user\source\repos\ArrayOfStructs\ArrayOfStructs\ArrayOfStructs.cpp(40,22): error C2131: expression did not evaluate to a constant
+C:\Users\user\source\repos\ArrayOfStructs\ArrayOfStructs\ArrayOfStructs.cpp(39,21): message : failure was caused by a read of a variable outside its lifetime
+C:\Users\user\source\repos\ArrayOfStructs\ArrayOfStructs\ArrayOfStructs.cpp(39,21): message : see usage of 'max'
